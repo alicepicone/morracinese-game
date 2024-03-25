@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>MORRA CINESE</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <div class="game">
+        <div class="tit"></div>
+
+        <div class="btn">
+            <button onclick="play('rock')" class="rock"><img src="./assets/img/rock.png" alt="rock"> </button>
+            <button onclick="play('paper')" class="paper"><img src="./assets/img/paper.png" alt="paper"></button>
+            <button onclick="play('scissors')" class="scissors"><img src="./assets/img/scissors.png" alt="scissors"></button>
+        </div>
+
+        <div class="cpu">
+            <p class="par"></p>
+        </div>
+        
+        <div class="result"></div>
+
+        <div class="score player">Giocatore  
+            <p class="playerScore"></p>
+        </div>
+
+        <div class="score">Computer  
+            <p class="cpuScore"></p>
+        </div>
+
+        <div class="reset">
+            <button onclick="resetGame()">Reset</button>
+        </div>
+        
+        </div>
+        <script src="assets/js/script.js" async defer></script>
+    </body>
+</html>
